@@ -1,6 +1,6 @@
 {
   "name": "vue-plotly",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve ./example/main.js --open",
@@ -11,7 +11,7 @@
     "prepublishOnly": "npm run lint && npm run build && npm run build:doc",
     "test:coverage": "vue-cli-service test:unit --coverage --verbose && codecov"
   },
-  "main": "dist/vue-plotly.umd.js",
+  "main": "dist/vue-plotly.umd.min.js",
   "module": "dist/vue-plotly.common.min.js",
   "files": [
     "dist/*.css",
@@ -20,8 +20,8 @@
     "src/*"
   ],
   "dependencies": {
-    "core-js": "^3.6.4",
-    "plotly.js": "^1.54.6",
+    "core-js": "^3.7.0",
+    "plotly.js": "^1.57.1",
     "vue": "^2.6.12",
     "vue-resize-directive": "^1.2.0"
   },
@@ -37,6 +37,7 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "bootstrap": "^4.4.1",
+    "bubleify": "^2.0.0",
     "codecov": "^3.6.1",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.1.2",
