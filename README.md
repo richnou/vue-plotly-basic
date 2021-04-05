@@ -1,20 +1,22 @@
 
-<p align="center"><img width="140"src="https://raw.githubusercontent.com/David-Desmaisons/vue-plotly/master/example/assets/logo.png"></p>
+This module is based on the vue-plotly package from Devid Desmaisons. 
 
-# vue-plotly
-[![GitHub open issues](https://img.shields.io/github/issues/David-Desmaisons/vue-plotly.svg)](https://github.com/David-Desmaisons/vue-plotly/issues)
-[![CircleCI](https://circleci.com/gh/David-Desmaisons/vue-plotly.svg?style=shield)](https://circleci.com/gh/David-Desmaisons/vue-plotly)
-[![codecov](https://codecov.io/gh/David-Desmaisons/vue-plotly/branch/master/graph/badge.svg)](https://codecov.io/gh/David-Desmaisons/vue-plotly)
-[![Npm version](https://img.shields.io/npm/v/vue-plotly.svg)](https://www.npmjs.com/package/vue-plotly)
+Currently only the dependencies were updated to keep compatible with Vue 2 and Nuxt.js
+
+
+
+# vue-plotly-basic 
+
+[![Npm version](https://img.shields.io/npm/v/@rleys/vue-plotly-basic.svg)](https://www.npmjs.com/package/@rleys/vue-plotly-basic)
 [![MIT License](https://img.shields.io/github/license/David-Desmaisons/vue-plotly.svg)](https://github.com/David-Desmaisons/vue-plotly/blob/master/LICENSE)
 
 <h2>Thin vue wrapper for <a
               href="https://plot.ly/javascript/"
               target="_blank"
-            >plotly.js</a></h2>
+            >plotly.js-basic</a></h2>
 <span>It provides:</span>
 <ul>
-  <li>all plotly.js methods and events</li>
+  <li>all plotly.js-basic methods and events</li>
   <li>data reactivity</li>
   <li>Redraw on resizing</li>
 </ul>
@@ -29,7 +31,7 @@ https://david-desmaisons.github.io/vue-plotly/
 <Plotly :data="data" :layout="layout" :display-mode-bar="false"></Plotly>
 ```
 ```javascript
-import { Plotly } from 'vue-plotly'
+import { Plotly } from 'vue-plotly-basic'
 
 export default {
   components: {
@@ -69,7 +71,7 @@ export default {
 
 ## Installation
 ```
-npm install vue-plotly
+npm install @rleys/vue-plotly-basic
 ```
 
 ## Project setup

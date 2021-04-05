@@ -1,4 +1,4 @@
-import Plotly from "plotly.js";
+import Plotly from "plotly.js-basic-dist-min";
 
 const plotlyFunctions = ["restyle", "relayout", "update", "addTraces", "deleteTraces", "moveTraces", "extendTraces", "prependTraces", "purge"];
 
