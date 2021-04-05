@@ -1,9 +1,9 @@
 
-This module is based on the vue-plotly package from Devid Desmaisons. 
+** This module is based on the vue-plotly package from David Desmaisons **
 
 Currently only the dependencies were updated to keep compatible with Vue 2 and Nuxt.js
 
-
+This variant builds agains the Plotly basic min distribution
 
 # vue-plotly-basic 
 
