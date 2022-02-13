@@ -1,6 +1,6 @@
 {
     "name": "@rleys/vue-plotly-basic",
-    "version": "1.1.7",
+    "version": "1.1.8",
     "private": false,
     "scripts": {
         "serve": "vue-cli-service serve ./example/main.js --open",
@@ -24,8 +24,8 @@
         "url": "https://github.com/richnou/vue-plotly-basic"
     },
     "dependencies": {
-        "core-js": "^3.20.0",
-        "plotly.js-basic-dist-min": "^2.8.1",
+        "core-js": "^3.21.0",
+        "plotly.js-basic-dist-min": "^2.9.0",
         "vue-resize-directive": "^1.2.0"
     },
     "peerDependencies": {
