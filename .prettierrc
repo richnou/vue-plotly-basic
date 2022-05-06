@@ -4,11 +4,10 @@
   "trailingComma":"none",
   "printWidth": 150,
   "bracketSpacing": true,
-  "jsxBracketSameLine": true,
   "proseWrap": "preserve",
   "requirePragma": false,
   "arrowParens": "avoid",
   "insertPragma": false,
-  "tabWidth": 2,
+  "tabWidth": 4,
   "useTabs": false
 }
