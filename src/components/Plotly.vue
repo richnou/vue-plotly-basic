@@ -42,7 +42,6 @@ export default {
         };
     },
     mounted() {
-    
         // Register Locales passed through input locales array
         // These must be added to the main project by the end user
         if (this.locales !== undefined) {
